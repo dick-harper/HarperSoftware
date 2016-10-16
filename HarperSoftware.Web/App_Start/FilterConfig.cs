@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Mvc;
+using HarperSoftware.Web.Filters;
 
 namespace HarperSoftware.Web
 {
@@ -8,6 +9,7 @@ namespace HarperSoftware.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new UnderConstructionAttribute());
         }
     }
 }
