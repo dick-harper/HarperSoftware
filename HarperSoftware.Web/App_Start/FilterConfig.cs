@@ -9,6 +9,7 @@ namespace HarperSoftware.Web
         public static void RegisterGlobalFilters(GlobalFilterCollection filters)
         {
             filters.Add(new HandleErrorAttribute());
+            filters.Add(new WebsiteOfflineAttribute());
             filters.Add(new UnderConstructionAttribute());
         }
     }
