@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarperSoftware.Domain", "Ha
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarperSoftware.Web", "HarperSoftware.Web\HarperSoftware.Web.csproj", "{01EC2C68-2EF0-4DF6-BD3C-F2A1C9A999FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarperSoftware.Logging", "HarperSoftware.Logging\HarperSoftware.Logging.csproj", "{8BEDE025-A566-457A-8AD4-76BF5608AD2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{01EC2C68-2EF0-4DF6-BD3C-F2A1C9A999FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{01EC2C68-2EF0-4DF6-BD3C-F2A1C9A999FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{01EC2C68-2EF0-4DF6-BD3C-F2A1C9A999FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BEDE025-A566-457A-8AD4-76BF5608AD2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BEDE025-A566-457A-8AD4-76BF5608AD2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BEDE025-A566-457A-8AD4-76BF5608AD2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BEDE025-A566-457A-8AD4-76BF5608AD2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
