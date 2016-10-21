@@ -9,6 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarperSoftware.Web", "Harpe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HarperSoftware.Logging", "HarperSoftware.Logging\HarperSoftware.Logging.csproj", "{8BEDE025-A566-457A-8AD4-76BF5608AD2E}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documentation", "Documentation", "{9639EA18-AAF0-408F-9C12-6A4A5811E3B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Website", "Website", "{D18B9023-1F26-4BA7-B007-D6A30AA96FFF}"
+	ProjectSection(SolutionItems) = preProject
+		Documentation\Website\Website Documentation.docx = Documentation\Website\Website Documentation.docx
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +37,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D18B9023-1F26-4BA7-B007-D6A30AA96FFF} = {9639EA18-AAF0-408F-9C12-6A4A5811E3B2}
 	EndGlobalSection
 EndGlobal
